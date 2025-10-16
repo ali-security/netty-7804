@@ -23,7 +23,6 @@
     <version>4.1.118.Final</version>
   </parent>
 
-  <version>4.1.118.Final+sp2</version>
   <artifactId>netty-handler</artifactId>
   <packaging>jar</packaging>
 
@@ -39,32 +38,32 @@
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>netty-common</artifactId>
-      <version>${project.parent.version}</version>
+      <version>${project.version}</version>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>netty-resolver</artifactId>
-      <version>${project.parent.version}</version>
+      <version>${project.version}</version>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>netty-buffer</artifactId>
-      <version>${project.parent.version}</version>
+      <version>${project.version}</version>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>netty-transport</artifactId>
-      <version>${project.parent.version}</version>
+      <version>${project.version}</version>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>netty-transport-native-unix-common</artifactId>
-      <version>${project.parent.version}</version>
+      <version>${project.version}</version>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>netty-codec</artifactId>
-      <version>${project.parent.version}</version>
+      <version>${project.version}</version>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
@@ -128,7 +127,7 @@
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>netty-transport</artifactId>
-      <version>${project.parent.version}</version>
+      <version>${project.version}</version>
       <type>test-jar</type>
       <scope>test</scope>
     </dependency>

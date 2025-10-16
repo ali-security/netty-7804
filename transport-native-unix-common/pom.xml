@@ -23,7 +23,6 @@
   </parent>
   <artifactId>netty-transport-native-unix-common</artifactId>
 
-  <version>4.1.118.Final+sp2</version>
   <name>Netty/Transport/Native/Unix/Common</name>
   <packaging>jar</packaging>
   <description>
@@ -683,17 +682,17 @@
     <dependency>
       <groupId>io.netty</groupId>
       <artifactId>netty-common</artifactId>
-      <version>${project.parent.version}</version>
+      <version>${project.version}</version>
     </dependency>
     <dependency>
       <groupId>io.netty</groupId>
       <artifactId>netty-buffer</artifactId>
-      <version>${project.parent.version}</version>
+      <version>${project.version}</version>
     </dependency>
     <dependency>
       <groupId>io.netty</groupId>
       <artifactId>netty-transport</artifactId>
-      <version>${project.parent.version}</version>
+      <version>${project.version}</version>
     </dependency>
   </dependencies>
 </project>
